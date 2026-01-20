@@ -8,7 +8,5 @@ use server::run_server;
 fn main() {
     let _ = Cli::parse();
 
-    loop {
-        run_server()
-    }
+    run_server()
 }
